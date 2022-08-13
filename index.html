@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="cointaner">
+      <div class="box">
+        <p id="label-page">
+          QR CODE GENERATOR
+        </p> 
+        <p id="label-border"></p>
+        <center>        
+      <div class="qrimage">
+        <img src=
+"https://chart.googleapis.com/chart?cht=qr&chl=Hello+World&chs=160x160&chld=L|0"
+        class="qr-code img-thumbnail img-responsive" />
+      </div>
+    </center>
+    <p id="download-sugg"></p>
+    
+      <input type="text" id="content" placeholder="https://www.mywebsite.com  OR  Text">
+      
+      <button onclick="submitbtn()" type="submit" class=
+            "btn btn-default" id="generate">
+            Generate
+          </button>
+    </div>
+  </div>
+    <script src=
+    "https://code.jquery.com/jquery-3.5.1.js">
+  </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
